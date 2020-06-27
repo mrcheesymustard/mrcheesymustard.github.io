@@ -1,0 +1,45 @@
+h1.title {
+    color: greenyellow;
+    text-align: center;
+    background-color: palevioletred;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 15%;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img.circle {
+    border-radius: 100%;
+}
+.para1 {
+    border-radius: 10% 33%;
+    color: darkcyan;
+    background-color: palevioletred;
+    font-size: large;
+    font-style: bold;
+    font-weight: 300;
+    font-family: 'Arial';
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    text-align: center;
+}
+.fancytextbox {
+    border-radius: 10% 33%;
+    color: azure;
+    background-color: orangered;
+    font-size: x-large;
+    font-style: bold;
+    font-family: 'Courier';
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    text-align: center;
+}

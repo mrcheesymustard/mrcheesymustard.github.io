@@ -4,18 +4,22 @@ h1.title {
     background-color: palevioletred;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: fit-content;
     border-radius: 15%;
+    padding: 1% 2%;
 }
-img.center {
+
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: fit-content;
 }
+
 img.circle {
     border-radius: 100%;
 }
+
 .para1 {
     border-radius: 10% 33%;
     color: darkcyan;
@@ -30,6 +34,7 @@ img.circle {
     padding: 2%;
     text-align: center;
 }
+
 .fancytextbox {
     border-radius: 10% 33%;
     color: azure;
@@ -42,4 +47,12 @@ img.circle {
     margin-right: auto;
     padding: 2%;
     text-align: center;
+}
+
+button.start {
+    background-color: cyan;
+    border-color: cyan;
+    border-radius: 20%;
+    height: 10%;
+    font-size: large;
 }

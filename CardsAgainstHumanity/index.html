@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Cards Against Humanity</title>
+    </head>
+    <body>
+        <h3>mrcheesymustard's</h3>
+        <h1>Cards Against Humanity</h1>
+        <br>
+        <form action="" id="loginForm">
+            <input placeholder="What's your name?" id="username"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <script>
+            let loginForm = document.getElementById("loginForm");
+
+            loginForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            let username = document.getElementById("username");
+
+            if (username.value == "") {
+                alert("Please enter a username!");
+            } else {
+                localStorage.username = username.value
+                window.location.href = "./game.html";
+            }
+            });
+        </script>
+    </body>
+</html>
